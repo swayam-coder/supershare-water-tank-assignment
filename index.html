@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Tank</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #chart-container {
+            position: relative;
+            height: 100vh;
+            overflow: hidden;
+        }
+        #chart-container1 {
+            position: relative;
+            height: 100vh;
+            overflow: hidden;
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+    <div class="inputarea">
+        <label>Enter values</label>
+        <input type="text" id="inputArr" name="inputArr" placeholder="e.g. 0,4,0,0,0,6,0,6,4,0">
+        <!-- <i>Input=> 0,4,0,0,0,6,0,6,4,0</i> -->
+        <button class="button" id="array-btn">Compute Water</button>
+        
+    </div>
+    <div class="waterAndWallContainer">
+        <div id="chart-container"></div>
+    </div>
+    <div class="onlyWaterContainer">
+        <h4><span id="waterunit"></span></h4>
+        <div id="chart-container1"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
